@@ -47,7 +47,7 @@ function generate_criteria(criterias,amount)
 
     criterias.forEach(element => {
                     
-        html += '<div>'+'<p>'+CriteriaTypes[element.Type]+'(Type: '+element.Type+')'+'(Amount: '+amount+')'+'</p>';
+        html += '<div>'+'<p>'+CriteriaTypes[element.Type]+'Type: '+element.Type+' - '+'Amount: '+amount+' - '+'Asset: '+element.Asset+''+'</p>';
 
         if(element.Modifiers)
                 {
@@ -69,7 +69,7 @@ function generate_modtree(modtrees)
 
     modtrees.forEach(element => {
                     
-        html += '<div>'+'<p>'+Modtree[element.Type]+'(Type: '+element.Type+')'+'(Amount: '+element.Amount+')'+'(Asset: '+element.Asset+')'+'</p>';
+        html += '<div>'+'<p>'+Modtree[element.Type]+'Type: '+element.Type+' - '+'Amount: '+element.Amount+' - '+'Asset: '+element.Asset+''+'</p>';
 
 
 

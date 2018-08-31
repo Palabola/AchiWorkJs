@@ -1,0 +1,26 @@
+{
+  "name": "achi-work-js",
+  "version": "1.0.0",
+  "description": "Achievement Explorer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/",
+  "keywords": [
+    "Electron"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "amstock3": "^3.21.13",
+    "await-sleep": "0.0.1",
+    "jquery": "^3.3.1",
+    "lowdb": "^1.0.0",
+    "node-binance-api": "^0.8.1",
+    "util": "^0.11.0"
+  }
+}
